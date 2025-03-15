@@ -39,7 +39,7 @@ CREATE TABLE student_courses (
 );
 
 insert into studentprofile(email, address, phone, dob)
-value('zaman@gmail.com', 'Lahore', '+92-306-0529558', '10-10-2001');
+value('zaman@gmail.com', 'Lahore', 'Number', '10-10-2001');
 
 select * from studentprofile;
 select * from student;
