@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.*;
 
 @Entity
-@Table(name="courses")
+@Table(name="course")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter

@@ -8,7 +8,7 @@ import lombok.Setter;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="student_profiles")
+@Table(name="studentprofile")
 @Getter
 @Setter
 public class StudentProfile {
@@ -21,7 +21,7 @@ public class StudentProfile {
     private String address;
     private String phone;
 
-    private LocalDate dob; // Changed from Long to LocalDate
+    private LocalDate dob;
 
     @JsonBackReference
     @OneToOne

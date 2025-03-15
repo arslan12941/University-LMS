@@ -7,7 +7,7 @@ import lombok.*;
 import java.util.List;
 
 @Entity
-@Table(name="faculties")
+@Table(name="faculty")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -16,7 +16,7 @@ public class Faculty {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long facultyID;
+    private Long id;
 
     private String name;
 
