@@ -58,3 +58,7 @@ insert into student_courses(student_id, course_id)
 value('5', '5');
 
 select * from student_courses;
+
+create database student;
+
+use student;
